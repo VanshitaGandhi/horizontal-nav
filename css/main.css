@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #dbd6cf;
-  font-family: "Bevan", cursive;
+  font-family: Bevan, cursive;
   line-height: 1.5;
 }
 
@@ -12,6 +12,8 @@ html {
 body {
   border-top: 3px solid #595652;
   border-bottom: 3px solid #595652;
+  background-color: #79756f;
+  margin: 0;
 }
 
 .class {
@@ -34,14 +36,11 @@ body {
 h1 {
   display: block;
   color: #fff;
-  margin-left: : auto;
   margin-right: auto;
   text-align: center;
-}
-
-.class {
-  margin: 0;
-  padding: 0;
+  font-family: Bevan, serif;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .class nav ul {
@@ -53,9 +52,9 @@ h1 {
   display: inline-block;
   background-color: #713837;
   color: #fff;
-  padding: .5em .75em;
   border-radius: 4px;
   text-decoration: none;
+  margin-bottom: .3em;
 }
 
 a:hover {
@@ -64,12 +63,4 @@ a:hover {
   color: #fff;
   padding: .5em .75em;
   border-radius: 4px;
-
-}
-
-body {
-  background-color: #79756f;
-  margin-top: 0em;
-  margin-left: 0em;
-  margin-right: 0em;
 }
